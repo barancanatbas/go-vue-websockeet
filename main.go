@@ -28,7 +28,7 @@ var upgrader = websocket.Upgrader{
 	WriteBufferSize: 1024,
 }
 
-var keys = []string{"selam baran", "iyidir senden naber", "sen kimsin ?", "aynen", "yok daha neler", "güzel bir örnek oldu", "go güzel dil", "fakat random sayı yok", "ismail", "khanjer"}
+var keys = []string{"selam baran", "iyidir senden naber", "sen kimsin ?", "aynen", "yok daha neler", "güzel bir örnek oldu", "go güzel dil", "fakat random sayı yok", "güzel bir hafta sonundan selamlar", "khanjer"}
 
 func WsEdnPoint(w http.ResponseWriter, r *http.Request) {
 	upgrader.CheckOrigin = func(r *http.Request) bool { return true }
